@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;800&family=Roboto:wght@300&family=Young+Serif&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: Lato;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 41px;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 41px;
+}
+
+.header__mobile-display {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+    background-color: #f1e4e6;
+    margin-bottom: 65px;
+}
+
+.banner__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 63.42px;
+}
+
+.banner__wr__bimage {
+    background: url(./img/man1.png);
+    width: 600px;
+    height: 764px;
+}
+
+.banner__right__text {
+    border-left: 12px solid #f16d7f;
+    padding-left: 16px;
+}
+
+.banner__right__text p {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#LUXERIOUS {
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#FASHION {
+    color: #f16d7f;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.line1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    margin-bottom: 96px;
+}
+
+.card {
+    background-image: url(./img/line1_w1.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 260px;
+}
+
+.line1__background {
+    background-color: rgba(33, 22, 22, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.card__text {
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.card__text h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card__text h3 {
+    color: #f16d7f;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card__text4 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.card__text4 h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card__text4 h3 {
+    color: #f16d7f;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card2 {
+    background-image: url(./img/line1_m1.png);
+    width: 360px;
+    height: 260px;
+}
+
+.card3 {
+    background-image: url(./img/line1_kid.png);
+    width: 360px;
+    height: 260px;
+}
+
+.card4 {
+    background-image: url(./img/line1_4.png);
+    width: 1138px;
+    height: 180px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.line2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64.52px;
+}
+
+.featured {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.featured h2 {
+    color: #222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.featured p {
+    color: #9f9f9f;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line2__card__list {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-bottom: 52.48px;
+}
+
+.line2__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.line2__text {
+    padding: 28.8px 16.6px;
+}
+
+.line2__text h2 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.line2__text p {
+    color: #5d5d5d;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.line2__text h3 {
+    color: #f16d7f;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.browse {
+    max-width: 215px;
+    border: 1px solid #ff6a6a;
+    padding: 15px 35px;
+    /* margin-bottom: 60px; */
+}
+
+.browse h2 {
+    color: #f26376;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (min-width: 770px) and (max-width: 1139.99px) {
+    .container {
+        max-width: 735px;
+    }
+    .banner__right__text p {
+        font-size: 44px;
+    }
+    #LUXERIOUS {
+        font-size: 24px;
+    }
+    #FASHION {
+        font-size: 24px;
+    }
+    .banner__wr__bimage {
+        background: url(./img/bsnner_man_tablet.png);
+        width: 386px;
+        height: 368px;
+    }
+    .card {
+        width: 232px;
+        height: 167px;
+    }
+    .card4 {
+        width: 100%;
+        height: 116px;
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    .card__text {
+        padding-top: 59px;
+        padding-bottom: 59px;
+    }
+    .card__text4 {
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+    .line2__card__list {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin-bottom: 47.5px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 769.99px) {
+    .container {
+        max-width: 344px;
+    }
+    .header__right {
+        display: none;
+    }
+    .header__mobile-display {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 41px;
+    }
+    .hidden-mobile {
+        display: none;
+    }
+    .banner__wrapper {
+        padding-top: 148px;
+        padding-bottom: 148px;
+    }
+    .banner__right__text p {
+        font-size: 38px;
+    }
+    #LUXERIOUS {
+        font-size: 20px;
+    }
+    #FASHION {
+        font-size: 20px;
+    }
+    .line1 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+    .card {
+        background-image: url(./img/line1_w1.png);
+        background-repeat: no-repeat;
+        width: 344px;
+        height: 249px;
+    }
+    .card2 {
+        background-image: url(./img/line1_m1.png);
+    }
+    .card3 {
+        background-image: url(./img/line1_kid.png);
+    }
+    .card4 {
+        width: 344px;
+        height: 111px;
+        background-image: url(./img/line1_4.png);
+    }
+    .card__text4 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .line2 {
+        margin-bottom: 96px;
+    }
+    .featured {
+        margin-bottom: 65px;
+    }
+    .line2__card__list {
+        display: flex;
+        flex-direction: column;
+        gap: 16.6px;
+        margin-bottom: 60.56px;
+    }
+}
